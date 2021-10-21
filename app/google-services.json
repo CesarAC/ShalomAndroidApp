@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1003704590470",
+    "project_id": "shalom-app-10175",
+    "storage_bucket": "shalom-app-10175.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003704590470:android:91e17df67e5fc5c7cfb107",
+        "android_client_info": {
+          "package_name": "com.app.shalom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003704590470-eehvrrgqib9e347e4fd4ne4be05r75jb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALI6n9uYCinlgXi98zcdeuDZe7dhhTRSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003704590470-eehvrrgqib9e347e4fd4ne4be05r75jb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003704590470:android:97d6160e557e09e6cfb107",
+        "android_client_info": {
+          "package_name": "com.example.shalom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003704590470-eehvrrgqib9e347e4fd4ne4be05r75jb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALI6n9uYCinlgXi98zcdeuDZe7dhhTRSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003704590470-eehvrrgqib9e347e4fd4ne4be05r75jb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
