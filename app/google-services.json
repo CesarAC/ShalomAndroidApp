@@ -36,12 +36,20 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1003704590470:android:97d6160e557e09e6cfb107",
+        "mobilesdk_app_id": "1:1003704590470:android:382efc9f9359b7e6cfb107",
         "android_client_info": {
-          "package_name": "com.example.shalom"
+          "package_name": "com.shalomadonai.app"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "1003704590470-h5g8urbmkijl6gh8p02jtu9htusl7q4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shalomadonai.app",
+            "certificate_hash": "5db406b03b833f9f00e4fbfbde8733fd4f6bc8bb"
+          }
+        },
         {
           "client_id": "1003704590470-eehvrrgqib9e347e4fd4ne4be05r75jb.apps.googleusercontent.com",
           "client_type": 3

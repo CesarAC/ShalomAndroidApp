@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.app.shalom">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.shalomadonai.app">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
 
     <application
         android:allowBackup="true"
@@ -13,7 +14,8 @@
         android:fadeScrollbars="false"
         android:fullBackupContent="@xml/backup_descriptor">
         <activity
-            android:name="com.app.shalom.MainActivity"
+            android:name="com.shalomadonai.app.MainActivity"
+            android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Shalom"
             android:screenOrientation="portrait"
@@ -28,7 +30,7 @@
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data
                     android:scheme="https"
-                    android:host="www.congregacaoshalomadonai.com" />
+                    android:host="www.shalomadonai.com.br" />
             </intent-filter>
         </activity>
     </application>
