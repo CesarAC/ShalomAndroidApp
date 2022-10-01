@@ -23,7 +23,7 @@ import androidx.webkit.WebSettingsCompat;
 import com.onesignal.OneSignal;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String ONESIGNAL_APP_ID = "e75e97d7-0aa6-4c04-831e-3f3a0ae754c0";
+    private static final String ONESIGNAL_APP_ID = "e33fdd21-9620-4e27-ac9e-eb58d09cf925";
 
     private WebView webView;
 
@@ -98,6 +98,8 @@ public class MainActivity extends AppCompatActivity {
         // OneSignal Initialization
         OneSignal.initWithContext(this);
         OneSignal.setAppId(ONESIGNAL_APP_ID);
+
+        OneSignal.promptForPushNotifications();
 
         // ATTENTION: This was auto-generated to handle app links.
         Intent appLinkIntent = getIntent();
