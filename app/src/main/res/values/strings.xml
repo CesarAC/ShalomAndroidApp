@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Shalom</string>
+    <string name="onesignal_notification_accent_color">83530A</string>
 </resources>
